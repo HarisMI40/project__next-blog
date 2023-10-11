@@ -1,0 +1,33 @@
+.container{
+    /**background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    gap : 10px;
+    flex: 1;
+}
+.logo{
+    flex : 2;
+    /* background-color : purple; */
+    text-align : center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.links{
+    display: flex;
+    gap : 10px;
+    flex : 1;
+}
+
+
+@media screen and (max-width: 1024px){
+    .link{
+        display: none;
+    }
+}

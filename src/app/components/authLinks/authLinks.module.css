@@ -1,0 +1,40 @@
+.hamburger{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 16px;
+    width: 20px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: var(--textColor);
+}
+
+.responsiveMenu{
+    position: absolute;
+    top : 50px;
+    left: 0px;
+    background-color: var(--bg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap : 50px;
+    align-items: center;
+    font-size: 36px;
+    height: calc(100vh - 50px);
+    z-index: 999;
+}
+
+@media screen and (max-width: 1024px){
+    .link{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+}
