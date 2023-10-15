@@ -29,6 +29,10 @@
     z-index: 999;
 }
 
+span.link{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1024px){
     .link{
         display: none;
