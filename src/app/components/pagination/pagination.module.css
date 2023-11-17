@@ -16,3 +16,8 @@
 .button:hover{
     background-color: rgb(206, 14, 53)
 }
+
+.button:disabled{
+    cursor: no-drop;
+    background-color: gray
+}

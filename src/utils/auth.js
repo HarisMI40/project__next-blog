@@ -1,6 +1,6 @@
 // import GithubProvider from "next-auth/providers/github"
 import { PrismaAdapter } from "@auth/prisma-adapter"
-import { Prisma } from "@prisma/client"
+// import { Prisma } from "@prisma/client"
 import GoogleProvider from "next-auth/providers/google"
 import prisma from "./connect"
 

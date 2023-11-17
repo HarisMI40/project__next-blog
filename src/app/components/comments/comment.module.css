@@ -1,0 +1,67 @@
+.container{
+    margin: 50px 0;
+}
+
+.titleComment{
+    font-weight: bold;
+}
+
+.formComment{
+    display: flex;
+    align-items: center;
+    gap : 30px;
+    margin-top : 30px;
+}
+
+.textarea{
+    flex: 5;
+    padding : 20px;
+}
+
+.button{
+    flex: 1;
+    background-color: cadetblue;
+    color : white;
+    font-weight: 300;
+    padding : 10px;
+    border : none;
+    transition: all 0.5s;
+}
+
+.button:hover{
+    cursor : pointer;
+    background-color: rgb(74, 123, 124);
+}
+
+.comments{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    gap : 30px;
+}
+
+.comments .comment{
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+}
+
+.comments .comment .userAvatar{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+
+.comments .comment .userAvatar img{
+    border-radius : 50%;
+}
+
+.comments .comment .userAvatarProfil .name{
+    font-size: 16px;
+    color : var(--softTextColor)
+}
+
+.comments .comment .userAvatarProfil .date{
+    font-size: 10px;
+    color : var(--softTextColor)
+}

@@ -3,7 +3,7 @@ import style from "./footer.module.css"
 import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
-  return <div className={style.container}>
+  return <div className={style.container} id="footer">
 
 
     <div className={style.info}>
